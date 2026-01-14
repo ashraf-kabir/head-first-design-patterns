@@ -1,19 +1,16 @@
 package singletonPattern;
 
-public class Singleton {
+public class SingletonRelyOnJVM {
   // static variable to hold the instance
-  private static Singleton uniqueInstance;
+  private static SingletonRelyOnJVM uniqueInstance = new SingletonRelyOnJVM();
 
   // other variables
 
   // private constructor
-  private Singleton() {}
+  private SingletonRelyOnJVM() {}
 
   // this method will return the instance after checking
-  public static Singleton getInstance() {
-    if (uniqueInstance == null) {
-      uniqueInstance = new Singleton();
-    }
+  public static SingletonRelyOnJVM getInstance() {
     return uniqueInstance;
   }
 
