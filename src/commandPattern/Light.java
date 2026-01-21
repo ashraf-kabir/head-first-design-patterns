@@ -1,10 +1,17 @@
 package commandPattern;
 
 public class Light {
-  public void on() {
-    System.out.println("Light is On");
+  String location;
+
+  public Light(String location) {
+    this.location = location;
   }
+
+  public void on() {
+    System.out.println(location + " light is On");
+  }
+
   public void off() {
-    System.out.println("Light is Off");
+    System.out.println(location + " light is Off");
   }
 }
