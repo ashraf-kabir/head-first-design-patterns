@@ -26,6 +26,11 @@ public class CeilingFan {
     System.out.println(location + " ceiling fan is on low");
   }
 
+  public void on() {
+    level = LOW;
+    System.out.println(location + " ceiling fan is turned on");
+  }
+
   public void off() {
     level = 0;
     System.out.println(location + " ceiling fan is off");
