@@ -1,4 +1,4 @@
-package adapterPattern;
+package adapterPattern.ducks;
 
 public class DuckTestDrive {
   public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package adapterPattern;
+package adapterPattern.ducks;
 
 public interface Duck {
   public void quack();

@@ -1,4 +1,4 @@
-package adapterPattern;
+package adapterPattern.ducks;
 
 public class WildTurkey implements Turkey {
   @Override
